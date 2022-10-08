@@ -3,9 +3,9 @@ const navOpener = () => {
     const navHolder = document.querySelector('.js-nav-holder');
 
     btnNavOpener.addEventListener( 'click', (e) => {
-        e.target.classlist.toggle('active');
-        navHolder.classlist.toggle('active');  
+        e.target.classList.toggle('active');
+        navHolder.classList.toggle('active');  
     });
 }
 
-navOpener();ща
+navOpener();
